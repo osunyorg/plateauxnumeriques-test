@@ -1,0 +1,26 @@
+params:
+  cookie_banner:
+    enable: false
+    blank: true
+    page: https://gdpr.eu/cookies/
+baseURL: /
+defaultContentLanguage: fr
+languageCode: fr
+languages:
+  fr:
+    title: Osuny template
+theme: osuny-hugo-theme
+paginate: 18
+permalinks:
+  posts:          /posts/:year/:month/:day/:slug/
+  categories:     /posts/:sections/:slug/
+  persons:        /team/:slug/
+  authors:        /team/:slug/posts/
+  researchers:    /team/:slug/articles/
+  teachers:       /team/:slug/programs/
+taxonomies:
+  administrator:  administrators
+  author:         authors
+  category:       categories
+  researcher:     researchers
+  teacher:        teachers
