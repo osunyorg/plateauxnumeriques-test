@@ -35,23 +35,11 @@ yarn watch
 
 Pour déployer le site avec Netlify, penser à ajouter la deploy key.
 
-
 ## Params
 
-Dans config.yml
+Dans configs/_default/params.yml
 ```
-params:
-```
-
-### CDN
-
-```
-cdnkey: 
-```
-
-### Cookie banner
-
-```
+keycdn: https://osuny-1b4da.kxcdn.com
 cookie_banner:
   enable: true
   blank: true
