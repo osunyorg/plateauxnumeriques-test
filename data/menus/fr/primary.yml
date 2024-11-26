@@ -5,8 +5,10 @@ items:
   target: "/page-de-test/"
   kind: page
   children: []
+  file: content/fr/pages/page-de-test/_index.html
 - title: Équipe
   target: "/equipe/"
   kind: page
   children: []
+  file: content/fr/persons/_index.html
 
