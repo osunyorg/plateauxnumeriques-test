@@ -4,12 +4,14 @@ items:
 - title: Page de test
   target: "/page-de-test/"
   kind: page
+  new_tab: false
   children: []
   path: "/pages/page-de-test"
   file: content/fr/pages/page-de-test/_index.html
 - title: Équipe
   target: "/equipe/"
   kind: page
+  new_tab: false
   children: []
   path: "/persons"
   file: content/fr/persons/_index.html
